@@ -43,9 +43,10 @@ body {
     font-weight: 700;
 }
 
-.header p {
+.header a {
     color: darkgrey;
     font-weight: 300;
+    text-decoration: none;
 }
 
 .content {
