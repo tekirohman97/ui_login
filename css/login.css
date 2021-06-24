@@ -52,7 +52,7 @@ body {
 .content {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 150px 1fr 1fr 0.3fr 1fr 120px auto;
+    grid-template-rows: 150px 60px 60px 14px 0.3fr 120px auto;
     justify-items: center;
     background-color: white;
     grid-gap: 1px;
@@ -113,13 +113,14 @@ body {
     align-self: center;
 }
 .input_nohp{
+    margin-top: 20px;
     width: 90%;
     height: 47px;
     display: grid;
     gap: 7px;
     grid-template-columns: 60px 10px 20px auto;
     grid-template-rows: 1fr;
-    align-self: center;
+    align-self: flex-start;
     border: 1px solid #7E7E7E;
     border-radius: 10px;
 
